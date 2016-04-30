@@ -1,0 +1,1160 @@
+
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	background-color:#BBDEFB;
+	font-family: 'Avenir Next W01', 'Avenir Next', 'Proxima Nova', 'Myriad Pro', Helvetica, Calibri, sans-serif;
+}
+
+a
+{
+	color:black;
+	text-decoration: none;
+}
+
+#the_top
+{
+	position: absolute;
+	top:0px;
+}
+
+#dive_button
+{
+	display: inline-block;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:20px;
+	height:50px;
+	width:105px;	
+	line-height:50px;
+	border-radius:5px;
+	background-color:#ffffff;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#dive_button:hover
+{
+	cursor:pointer;
+}
+
+#dive_button:active
+{
+	background-color:#BDBDBD;
+}
+
+#dive_button_large
+{
+	display: inline-block;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:20px;
+	height:50px;
+	width:175px;	
+	line-height:50px;
+	border-radius:5px;
+	background-color:#ffffff;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#dive_button_large:hover
+{
+	cursor:pointer;
+}
+
+#dive_button_large:active
+{
+	background-color:#BDBDBD;
+}
+
+#title_text
+{
+	position: absolute;
+	width:100%;
+	text-align:center;
+	top:10%;
+	left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	font-size:80px;
+	
+	font-weight:lighter;
+	z-index:2;
+}
+
+#title_text:hover
+{
+	cursor:default;
+}
+
+#sub_title_text
+{
+	position: absolute;
+	width:100%;
+	top:35%;
+	text-align:center;
+	left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	font-size:40px;
+	font-weight:lighter;
+	z-index:2;
+}
+
+#sub_title_text:hover
+{
+	cursor:pointer;
+	color:#585858;
+}
+
+#the_ocean
+{
+	position: absolute;
+	left:0px;
+	top:50%;
+	width:100%;
+	height:1500%;
+  	background-color: blue;
+	background-image: linear-gradient(#1E88E5,#0D47A1,#063882,#032A64,#011B41,#011B41,#000B1B,#000B1B,#000205,#000205,#000001);
+	background: blue;
+	background: linear-gradient(#1E88E5,#0D47A1,#063882,#032A64,#011B41,#011B41,#000B1B,#000B1B,#000205,#000205,#000001);
+}
+
+#the_ocean_floor
+{
+	position: absolute;
+	left:0px;
+	top:1500%;
+	width:100%;
+	height:9595%;
+	background-color:#000001;
+}
+
+#text_box
+{
+	position: relative;
+	color:white;
+	width:300px;
+}
+
+#the_sun
+{
+	position: relative;
+	top:50px;
+	background-color:yellow;
+	height:600px;
+	width:600px;
+	border-radius:300px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 0 0 64px yellow;
+}
+
+.relative_center
+{
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#person_box
+{
+	position: absolute;
+	top:350%;
+	width:100%;
+	text-align:center;
+}
+
+#person_box_small
+{
+	position: absolute;
+	top:250%;
+	width:100%;
+	text-align:center;
+}
+
+#whale_box_small
+{
+	position: absolute;
+	top:150%;
+	width:100%;
+	text-align:center;
+}
+
+#building_box
+{
+	position: absolute;
+	top:850%;
+	width:100%;
+	text-align:center;
+}
+
+#angler_box
+{
+	position: absolute;
+	top:950%;
+	width:100%;
+	text-align:center;
+}
+
+#light_box
+{
+	position: absolute;
+	top:1150%;
+	width:100%;
+	text-align:center;
+}
+
+#twilight_box
+{
+	position: absolute;
+	top:650%;
+	width:100%;
+	text-align:center;
+}
+
+#mile_box
+{
+	position: absolute;
+	top:1650%;
+	width:100%;
+	text-align:center;
+}
+
+#empty_box
+{
+	position: absolute;
+	top:2150%;
+	width:100%;
+	text-align:center;
+}
+
+#whale
+{
+	position: relative;
+	height:6px;
+	width:8px;
+	border-radius:50%;
+	background-color:black;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+	-webkit-animation: swim 2s infinite alternate; /* Safari 4+ */
+  	-moz-animation: swim 2s infinite alternate; /* Fx 5+ */
+  	-o-animation: swim 2s infinite alternate; /* Opera 12+ */
+  	animation: swim 2s infinite alternate; /* IE 10+, Fx 29+ */
+}
+
+#sperm_whale_box
+{
+	position: absolute;
+	top:2550%;
+	width:100%;
+	text-align:center;
+}
+
+#titanic_box
+{
+	position: absolute;
+	top:3750%;
+	width:100%;
+	text-align:center;
+}
+
+#atlantic_box
+{
+	position: absolute;
+	top:3850%;
+	width:100%;
+	text-align:center;
+}
+
+#deep_box
+{
+	position: absolute;
+	top:11050%;
+	width:100%;
+	text-align:center;
+}
+
+#small_life_box
+{
+	position: absolute;
+	top:10950%;
+	width:100%;
+	text-align:center;
+}
+
+#oil_box
+{
+	position: absolute;
+	top:10750%;
+	width:100%;
+	text-align:center;
+}
+
+#plane_box
+{
+	position: absolute;
+	top:9450%;
+	width:100%;
+	text-align:center;
+}
+
+#atlantic_max_box
+{
+	position: absolute;
+	top:8650%;
+	width:100%;
+	text-align:center;
+}
+
+#empire_box
+{
+	position: absolute;
+	top:9250%;
+	width:100%;
+	text-align:center;
+}
+
+#everest_box
+{
+	position: absolute;
+	top:8950%;
+	width:100%;
+	text-align:center;
+}
+
+#fish_deep_box
+{
+	position: absolute;
+	top:8150%;
+	width:100%;
+	text-align:center;
+}
+
+
+#elbrus_box
+{
+	position: absolute;
+	top:5650%;
+	width:100%;
+	text-align:center;
+}
+
+#hadal_box
+{
+	position: absolute;
+	top:7850%;
+	width:100%;
+	text-align:center;
+}
+
+#sumb_box
+{
+	position: absolute;
+	top:6550%;
+	width:100%;
+	text-align:center;
+}
+
+#some_text_box
+{
+	position: absolute;
+	top:4550%;
+	width:100%;
+	text-align:center;
+}
+
+#angler_fish
+{
+	position: relative;
+	height:4px;
+	width:3px;
+	border-radius:50%;
+	background-color:white;
+	box-shadow: 0 0 10px white;
+	-webkit-animation: swim 2s infinite alternate; /* Safari 4+ */
+  	-moz-animation: swim 2s infinite alternate; /* Fx 5+ */
+  	-o-animation: swim 2s infinite alternate; /* Opera 12+ */
+  	animation: swim 2s infinite alternate; /* IE 10+, Fx 29+ */
+}
+
+#angler_fish_two
+{
+	position: relative;
+	height:4px;
+	width:3px;
+	border-radius:50%;
+	background-color:white;
+	box-shadow: 0 0 10px white;
+	-webkit-animation: swim 3s infinite alternate; /* Safari 4+ */
+  	-moz-animation: swim 3s infinite alternate; /* Fx 5+ */
+  	-o-animation: swim 3s infinite alternate; /* Opera 12+ */
+  	animation: swim 3s infinite alternate; /* IE 10+, Fx 29+ */
+}
+
+#angler_fish_three
+{
+	position: relative;
+	height:4px;
+	width:3px;
+	border-radius:50%;
+	background-color:white;
+	box-shadow: 0 0 10px white;
+	-webkit-animation: swim 4s infinite alternate; /* Safari 4+ */
+  	-moz-animation: swim 4s infinite alternate; /* Fx 5+ */
+  	-o-animation: swim 4s infinite alternate; /* Opera 12+ */
+  	animation: swim 4s infinite alternate; /* IE 10+, Fx 29+ */
+}
+
+#person
+{
+	position: relative;
+	height:5px;
+	width:3px;
+	border-radius:2px;
+	background-color:black;
+	
+	-webkit-animation: bob 2s infinite alternate; /* Safari 4+ */
+  	-moz-animation: bob 2s infinite alternate; /* Fx 5+ */
+  	-o-animation: bob 2s infinite alternate; /* Opera 12+ */
+  	animation: bob 2s infinite alternate; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes bob {
+  0%   { top:5px; }
+  100% { top:0px; }
+}
+@-moz-keyframes bob {
+   0%   { top:5px; }
+   100% { top:0px; }
+}
+@-o-keyframes bob{
+   0%   { top:5px; }
+   100% { top:0px; }
+}
+@keyframes bob {
+   0%   { top:5px; }
+   100% { top:0px; }
+}
+
+@-webkit-keyframes swim {
+  0%   { left:-15px; }
+  100% { left:15px; }
+}
+@-moz-keyframes swim {
+   0%   { left:-15px; }
+   100% { left:15px; }
+}
+@-o-keyframes swim{
+   0%   { left:-15px; }
+   100% { left:15px; }
+}
+@keyframes swim {
+   0%   { left:-15px; }
+   100% { left:15px; }
+}
+
+#surface
+{
+	position: absolute;
+	top:50%;
+}
+
+.depth_marker
+{
+	position: relative;
+	left:10px;
+	color:white;
+}
+
+#x2
+{
+	position: absolute;
+	top:150%;
+}
+
+#x3
+{
+	position: absolute;
+	top:250%;
+}
+
+#x4
+{
+	position: absolute;
+	top:350%;
+}
+
+#x5
+{
+	position: absolute;
+	top:450%;
+}
+
+#x6
+{
+	position: absolute;
+	top:550%;
+}
+
+#x7
+{
+	position: absolute;
+	top:650%;
+}
+
+#x8
+{
+	position: absolute;
+	top:750%;
+}
+
+#x9
+{
+	position: absolute;
+	top:850%;
+}
+
+
+#x10
+{
+	position: absolute;
+	top:950%;
+}
+
+#x11
+{
+	position: absolute;
+	top:1050%;
+}
+
+#x12
+{
+	position: absolute;
+	top:1150%;
+}
+
+#x13
+{
+	position: absolute;
+	top:1250%;
+}
+
+#x14
+{
+	position: absolute;
+	top:1350%;
+}
+
+#x15
+{
+	position: absolute;
+	top:1450%;
+}
+
+#x16
+{
+	position: absolute;
+	top:1550%;
+}
+
+#x17
+{
+	position: absolute;
+	top:1650%;
+}
+
+#x18
+{
+	position: absolute;
+	top:1750%;
+}
+
+#x19
+{
+	position: absolute;
+	top:1850%;
+}
+
+#x20
+{
+	position: absolute;
+	top:1950%;
+}
+
+#x21
+{
+	position: absolute;
+	top:2050%;
+}
+
+#x22
+{
+	position: absolute;
+	top:2150%;
+}
+
+#x23
+{
+	position: absolute;
+	top:2250%;
+}
+
+#x24
+{
+	position: absolute;
+	top:2350%;
+}
+
+#x25
+{
+	position: absolute;
+	top:2450%;
+}
+
+#x26
+{
+	position: absolute;
+	top:2550%;
+}
+
+#x27
+{
+	position: absolute;
+	top:2650%;
+}
+
+#x28
+{
+	position: absolute;
+	top:2750%;
+}
+
+#x29
+{
+	position: absolute;
+	top:2850%;
+}
+
+#x30
+{
+	position: absolute;
+	top:2950%;
+}
+
+#x31
+{
+	position: absolute;
+	top:3050%;
+}
+
+#x32
+{
+	position: absolute;
+	top:3150%;
+}
+
+#x33
+{
+	position: absolute;
+	top:3250%;
+}
+
+#x34
+{
+	position: absolute;
+	top:3350%;
+}
+
+#x35
+{
+	position: absolute;
+	top:3450%;
+}
+
+#x36
+{
+	position: absolute;
+	top:3550%;
+}
+
+#x37
+{
+	position: absolute;
+	top:3650%;
+}
+
+#x38
+{
+	position: absolute;
+	top:3750%;
+}
+
+#x39
+{
+	position: absolute;
+	top:3850%;
+}
+
+#x40
+{
+	position: absolute;
+	top:3950%;
+}
+
+#x41
+{
+	position: absolute;
+	top:4050%;
+}
+
+#x42
+{
+	position: absolute;
+	top:4150%;
+}
+
+#x43
+{
+	position: absolute;
+	top:4250%;
+}
+
+#x44
+{
+	position: absolute;
+	top:4350%;
+}
+
+#x45
+{
+	position: absolute;
+	top:4450%;
+}
+
+#x46
+{
+	position: absolute;
+	top:4550%;
+}
+
+#x47
+{
+	position: absolute;
+	top:4650%;
+}
+
+#x48
+{
+	position: absolute;
+	top:4750%;
+}
+
+#x49
+{
+	position: absolute;
+	top:4850%;
+}
+
+#x50
+{
+	position: absolute;
+	top:4950%;
+}
+
+#x51
+{
+	position: absolute;
+	top:5050%;
+}
+
+#x52
+{
+	position: absolute;
+	top:5150%;
+}
+
+#x53
+{
+	position: absolute;
+	top:5250%;
+}
+
+#x54
+{
+	position: absolute;
+	top:5350%;
+}
+
+#x55
+{
+	position: absolute;
+	top:5450%;
+}
+
+#x56
+{
+	position: absolute;
+	top:5550%;
+}
+
+#x57
+{
+	position: absolute;
+	top:5650%;
+}
+
+#x58
+{
+	position: absolute;
+	top:5750%;
+}
+
+#x59
+{
+	position: absolute;
+	top:5850%;
+}
+
+#x60
+{
+	position: absolute;
+	top:5950%;
+}
+
+#x61
+{
+	position: absolute;
+	top:6050%;
+}
+
+#x62
+{
+	position: absolute;
+	top:6150%;
+}
+
+#x63
+{
+	position: absolute;
+	top:6250%;
+}
+
+#x64
+{
+	position: absolute;
+	top:6350%;
+}
+
+#x65
+{
+	position: absolute;
+	top:6450%;
+}
+
+#x66
+{
+	position: absolute;
+	top:6550%;
+}
+
+#x67
+{
+	position: absolute;
+	top:6650%;
+}
+
+#x68
+{
+	position: absolute;
+	top:6750%;
+}
+
+#x69
+{
+	position: absolute;
+	top:6850%;
+}
+
+#x70
+{
+	position: absolute;
+	top:6950%;
+}
+
+#x71
+{
+	position: absolute;
+	top:7050%;
+}
+
+#x72
+{
+	position: absolute;
+	top:7150%;
+}
+
+#x73
+{
+	position: absolute;
+	top:7250%;
+}
+
+#x74
+{
+	position: absolute;
+	top:7350%;
+}
+
+#x75
+{
+	position: absolute;
+	top:7450%;
+}
+
+#x76
+{
+	position: absolute;
+	top:7550%;
+}
+
+#x77
+{
+	position: absolute;
+	top:7650%;
+}
+
+#x78
+{
+	position: absolute;
+	top:7750%;
+}
+
+#x79
+{
+	position: absolute;
+	top:7850%;
+}
+
+#x80
+{
+	position: absolute;
+	top:7950%;
+}
+
+#x81
+{
+	position: absolute;
+	top:8050%;
+}
+
+#x82
+{
+	position: absolute;
+	top:8150%;
+}
+
+#x83
+{
+	position: absolute;
+	top:8250%;
+}
+
+#x84
+{
+	position: absolute;
+	top:8350%;
+}
+
+#x85
+{
+	position: absolute;
+	top:8450%;
+}
+
+#x86
+{
+	position: absolute;
+	top:8550%;
+}
+
+#x87
+{
+	position: absolute;
+	top:8650%;
+}
+
+#x88
+{
+	position: absolute;
+	top:8750%;
+}
+
+#x89
+{
+	position: absolute;
+	top:8850%;
+}
+
+#x90
+{
+	position: absolute;
+	top:8950%;
+}
+
+#x91
+{
+	position: absolute;
+	top:9050%;
+}
+
+#x92
+{
+	position: absolute;
+	top:9150%;
+}
+
+#x93
+{
+	position: absolute;
+	top:9250%;
+}
+
+#x94
+{
+	position: absolute;
+	top:9350%;
+}
+
+#x95
+{
+	position: absolute;
+	top:9450%;
+}
+
+#x96
+{
+	position: absolute;
+	top:9550%;
+}
+
+#x97
+{
+	position: absolute;
+	top:9650%;
+}
+
+#x98
+{
+	position: absolute;
+	top:9750%;
+}
+
+#x99
+{
+	position: absolute;
+	top:9850%;
+}
+
+#x100
+{
+	position: absolute;
+	top:9950%;
+}
+
+#x101
+{
+	position: absolute;
+	top:10050%;
+}
+
+#x102
+{
+	position: absolute;
+	top:10150%;
+}
+
+#x103
+{
+	position: absolute;
+	top:10250%;
+}
+
+#x104
+{
+	position: absolute;
+	top:10350%;
+}
+
+#x105
+{
+	position: absolute;
+	top:10450%;
+}
+
+#x106
+{
+	position: absolute;
+	top:10550%;
+}
+
+#x107
+{
+	position: absolute;
+	top:10650%;
+}
+
+#x108
+{
+	position: absolute;
+	top:10750%;
+}
+
+#x109
+{
+	position: absolute;
+	top:10850%;
+}
+
+#x110
+{
+	position: absolute;
+	top:10950%;
+}
+
+#x111
+{
+	position: absolute;
+	top:11050%;
+}
+
+#x112
+{
+	position: absolute;
+	top:11153%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,297 @@
+<!DOCTYPE HTML>
+	<html>
+		<head>
+			<link rel = "stylesheet" href = "style.css" />
+			<link rel="stylesheet" href="animate.css" />
+			<link rel="shortcut icon" href="starfish.ico">
+			
+			<script rel = "text/javascript" src="jquery-1.11.1.js"></script>
+			<script type="text/javascript" src="smoothscroll.js"></script>
+			<script type = "text/javascript" src = "script.js"></script>
+			<title>The Sea</title>
+		</head>
+		<body>
+			<div id = "the_top"> </div>
+			
+			<div id = "the_sun">
+				<span class = "animated fadeInDown" id = "title_text">The Sea</span>
+				<br />
+				<br />
+				<a href = "#first_attraction" class = "smoothScroll"> <span class = "animated fadeIn" id = "sub_title_text">Click To Take a Dive.</span> </a>
+			</div>
+			<div id = "the_ocean"></div>
+			<div id = "the_ocean_floor"></div>
+			<span id = "surface">
+				<div class = "depth_marker" id = "x1">Depth: 0 Meters</div>
+			</span>
+			
+			<span id = "first_attraction" style = "position:absolute;top:100%;"></span>
+			<span id = "whale_box_small">
+				<div id = "whale" class = "relative_center"></div>
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At just over 100 meters, this is the maximum diving depth of the blue whale, the largest animal on Earth.</div>
+				<a href = "#second_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "second_attraction" style = "position:absolute;top:200%;"></span>
+			<span id = "person_box_small">
+				
+					<div id = "person" class = "relative_center"></div>
+					<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">No, that's not a piece of dust on your screen. That's Herbert Nitsch during his record-setting free dive of 214 meters!</div>
+					<a href = "#third_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "third_attraction" style = "position:absolute;top:300%;"></span>
+			<span id = "person_box">
+				
+					<div id = "person" class = "relative_center"></div>
+					<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">See that little dot right above this text? That's Nuno Gomes! At 318.25 meters, he currently holds the record for the world's deepest verified scuba dive.</div>
+					<a href = "#fourth_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "fourth_attraction" style = "position:absolute;top:600%;"></span>
+			<span id = "twilight_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At about 600 meters beneath the surface, we've arrived at what is known as the Twilight Zone. Temperatures here can be as low as 3.9 degrees celsius!</div>
+				<a href = "#sixth_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "sixth_attraction" style = "position:absolute;top:800%;"></span>
+			<span id = "building_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At just over 825 meters, Burj Khalifa, the tallest building in the world, would be completely submerged at this depth. And we're only just getting started.</div>
+				<a href = "#seventh_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "seventh_attraction" style = "position:absolute;top:900%;"></span>
+			<span id = "angler_box">
+				<div id = "angler_fish" class = "relative_center"></div>
+				<div id = "angler_fish_two" class = "relative_center"></div>
+				<div id = "angler_fish_three" class = "relative_center"></div>
+				<div id = "angler_fish" class = "relative_center"></div>
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">Notice the softly glowing lights above. Those are deep sea anglers - they live their entire lives in almost total darkness. The water is freezing cold at this depth.</div>
+				<a href = "#x8_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "x8_attraction" style = "position:absolute;top:1100%;"></span>
+			<span id = "light_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">We've reached the 1,100 meter mark. This is the point beyond which visible light cannot penetrate. There is only darkness below...for miles.</div>
+				<a href = "#x9_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "x9_attraction" style = "position:absolute;top:1600%;"></span>
+			<span id = "mile_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">Well, we're now exactly one mile under the sea. Very few creatures live at this depth due to the harsh conditions. For instance, the water pressure is so great that a human would be instantly crushed into nothingness if exposed. Nice.</div>
+				<a href = "#x10_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "x10_attraction" style = "position:absolute;top:2100%;"></span>
+			<span id = "empty_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">Still here? We're not even halfway to the bottom yet. It's not too late to back out!</div>
+			<a href = "#x11_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a><a href = "#the_top" class = "smoothScroll"> <div id = "dive_button" style = "margin-left:10px;">Back Out</div> </a>
+			</span>
+			
+			<span id = "x11_attraction" style = "position:absolute;top:2500%;"></span>
+			<span id = "sperm_whale_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">This is the maximum diving depth of a Sperm Whale. They spent over 90 percent of their lives at great depths in search of squid and small fish to eat.</div>
+			<a href = "#x12_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div></a>
+			</span>
+			
+			<span id = "x12_attraction" style = "position:absolute;top:3700%;"></span>
+			<span id = "titanic_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">The final resting place of the Titanic finds its home here at around 3700 meters under the sea. There has been 197 expeditions to this ghostly historical site.</div>
+				<a href = "#x13_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "x13_attraction" style = "position:absolute;top:3800%;"></span>
+			<span id = "atlantic_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At just over 2 miles, this is the average depth of the Atlantic Ocean. The pressure here is over 370 times that which is found on the surface.</div>
+				<a href = "#x14_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "x14_attraction" style = "position:absolute;top:4500%;"></span>
+			<span id = "some_text_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">The ocean is pitch black and silent at this point, with few living creatures. Some small, pale fish are at this depth, but they are far and few between. </div>
+				<a href = "#x15_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "x15_attraction" style = "position:absolute;top:5600%;"></span>
+			<span id = "elbrus_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At 5,642 meters under the sea, we are now so deep that the entirety of Mount Elbrus, the tallest peak of the Caucasus Mountains and in Europe, would be completely submerged.</div>
+				<a href = "#x16_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "x16_attraction" style = "position:absolute;top:6500%;"></span>
+			<span id = "sumb_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At 6,492 meters, we've reached the depth of Shinkai 6500, a Japanese deep-submergence vehicle. It dives to this depth in order to study seafloor topography and geology and to research deep-sea organisms.</div>
+				<a href = "#x17_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "x17_attraction" style = "position:absolute;top:7800%;"></span>
+			<span id = "hadal_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">We're now nearly 7,800 meters below the surface. This is the home of the Hadal Snailfish, which was until late 2011 the deepest that scientists had ever found fish before. This fish contains a protein that allows its cells to remain functional at the high pressures found in the sea. </div>
+				<a href = "#x18_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "x18_attraction" style = "position:absolute;top:8100%;"></span>
+			<span id = "fish_deep_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">We are at the deepest point of the sea where scientists have found fish. While the species of fish was unidentified, scientists theorize that the deepest similar species could go is to about 8,200 meters. However, there could be unknown organisms that live deeper.</div>
+				<a href = "#x19_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "x19_attraction" style = "position:absolute;top:8600%;"></span>
+			<span id = "atlantic_max_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">We've reached the deepest part of the Atlantic Ocean. While this is incredibly deep, we'll soon see that there do exist many other places that are far deeper.</div>
+				<a href = "#x20_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+		
+			<span id = "x20_attraction" style = "position:absolute;top:8900%;"></span>
+			<span id = "everest_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At 8,848 meters, we have a point in the sea that is deep as Mount Everest is tall. This is nearly 5 and a half miles beneath the surface of the ocean.</div>
+				<a href = "#x21_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			
+			<span id = "x21_attraction" style = "position:absolute;top:9200%;"></span>
+			<span id = "empire_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">Standing at around 373 meters tall, the Empire State Building could be completely submerged at this depth nearly 25 times over.</div>
+				<a href = "#x22_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "x22_attraction" style = "position:absolute;top:9400%;"></span>
+			<span id = "plane_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">At just over 9,400 meters, we've reached a depth equivalent to the average cruising altitude of an airliner. </div>
+				<a href = "#x23_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "x23_attraction" style = "position:absolute;top:10700%;"></span>
+			<span id = "oil_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">We've reached a depth of 10,700 meters. It is around this depth that the world's deepest oil drilling sites, Deepwater Horizon, was active until the 2010 disaster that resulted in it becoming inoperable. </div>
+				<a href = "#x24_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "x24_attraction" style = "position:absolute;top:10900%;"></span>
+			<span id = "small_life_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">We've approaching the lowest known point in the sea. Even at this depth, life is prosperous in the form of soft, single-celled organisms that resemble some of Earth's earliest life forms.</div>
+				<a href = "#x25_attraction" class = "smoothScroll"> <div id = "dive_button">Keep Diving</div> </a>
+			</span>
+			
+			<span id = "x25_attraction" style = "position:absolute;top:11000%;"></span>
+			<span id = "deep_box">
+				<div id = "text_box" class = "relative_center" style = "position:relative;top:10px;">It is at this depth that we find the lowest known point in the sea, otherwise known as Challenger Deep of the Mariana Trench. It is thought that there are other points that are much deeper, as we have only currently explored about 10 percent of the world's oceans.</div>
+				<a href = "#the_top" class = "smoothScroll"> <div id = "dive_button_large">Return to Surface</div> </a>
+			</span>
+			
+			
+			
+			<!-- Depth Markers -->
+			<div class = "depth_marker" id = "x2">Depth: 100 Meters</div>
+			<div class = "depth_marker" id = "x3">Depth: 200 Meters</div>
+			<div class = "depth_marker" id = "x4">Depth: 300 Meters</div>
+			<div class = "depth_marker" id = "x5">Depth: 400 Meters</div>
+			<div class = "depth_marker" id = "x6">Depth: 500 Meters</div>
+			<div class = "depth_marker" id = "x7">Depth: 600 Meters</div>
+			<div class = "depth_marker" id = "x8">Depth: 700 Meters</div>
+			<div class = "depth_marker" id = "x9">Depth: 800 Meters</div>
+			<div class = "depth_marker" id = "x10">Depth: 900 Meters</div>
+			<div class = "depth_marker" id = "x11">Depth: 1,000 Meters</div>
+			<div class = "depth_marker" id = "x12">Depth: 1,100 Meters</div>
+			<div class = "depth_marker" id = "x13">Depth: 1,200 Meters</div>
+			<div class = "depth_marker" id = "x14">Depth: 1,300 Meters</div>
+			<div class = "depth_marker" id = "x15">Depth: 1,400 Meters</div>
+			<div class = "depth_marker" id = "x16">Depth: 1,500 Meters</div>
+			<div class = "depth_marker" id = "x17">Depth: 1,600 Meters</div>
+			<div class = "depth_marker" id = "x18">Depth: 1,700 Meters</div>
+			<div class = "depth_marker" id = "x19">Depth: 1,800 Meters</div>
+			<div class = "depth_marker" id = "x20">Depth: 1,900 Meters</div>
+			<div class = "depth_marker" id = "x21">Depth: 2,000 Meters</div>
+			<div class = "depth_marker" id = "x22">Depth: 2,100 Meters</div>
+			<div class = "depth_marker" id = "x23">Depth: 2,200 Meters</div>
+			<div class = "depth_marker" id = "x24">Depth: 2,300 Meters</div>
+			<div class = "depth_marker" id = "x25">Depth: 2,400 Meters</div>
+			<div class = "depth_marker" id = "x26">Depth: 2,500 Meters</div>
+			<div class = "depth_marker" id = "x27">Depth: 2,600 Meters</div>
+			<div class = "depth_marker" id = "x28">Depth: 2,700 Meters</div>
+			<div class = "depth_marker" id = "x29">Depth: 2,800 Meters</div>
+			<div class = "depth_marker" id = "x30">Depth: 2,900 Meters</div>
+			<div class = "depth_marker" id = "x31">Depth: 3,000 Meters</div>
+			<div class = "depth_marker" id = "x32">Depth: 3,100 Meters</div>
+			<div class = "depth_marker" id = "x33">Depth: 3,200 Meters</div>
+			<div class = "depth_marker" id = "x34">Depth: 3,300 Meters</div>
+			<div class = "depth_marker" id = "x35">Depth: 3,400 Meters</div>
+			<div class = "depth_marker" id = "x36">Depth: 3,500 Meters</div>
+			<div class = "depth_marker" id = "x37">Depth: 3,600 Meters</div>
+			<div class = "depth_marker" id = "x38">Depth: 3,700 Meters</div>
+			<div class = "depth_marker" id = "x39">Depth: 3,800 Meters</div>
+			<div class = "depth_marker" id = "x40">Depth: 3,900 Meters</div>
+			<div class = "depth_marker" id = "x41">Depth: 4,000 Meters</div>
+			<div class = "depth_marker" id = "x42">Depth: 4,100 Meters</div>
+			<div class = "depth_marker" id = "x43">Depth: 4,200 Meters</div>
+			<div class = "depth_marker" id = "x44">Depth: 4,300 Meters</div>
+			<div class = "depth_marker" id = "x45">Depth: 4,400 Meters</div>
+			<div class = "depth_marker" id = "x46">Depth: 4,500 Meters</div>
+			<div class = "depth_marker" id = "x47">Depth: 4,600 Meters</div>
+			<div class = "depth_marker" id = "x48">Depth: 4,700 Meters</div>
+			<div class = "depth_marker" id = "x49">Depth: 4,800 Meters</div>
+			<div class = "depth_marker" id = "x50">Depth: 4,900 Meters</div>
+			<div class = "depth_marker" id = "x51">Depth: 5,000 Meters</div>
+			<div class = "depth_marker" id = "x52">Depth: 5,100 Meters</div>
+			<div class = "depth_marker" id = "x53">Depth: 5,200 Meters</div>
+			<div class = "depth_marker" id = "x54">Depth: 5,300 Meters</div>
+			<div class = "depth_marker" id = "x55">Depth: 5,400 Meters</div>
+			<div class = "depth_marker" id = "x56">Depth: 5,500 Meters</div>
+			<div class = "depth_marker" id = "x57">Depth: 5,600 Meters</div>
+			<div class = "depth_marker" id = "x58">Depth: 5,700 Meters</div>
+			<div class = "depth_marker" id = "x59">Depth: 5,800 Meters</div>
+			<div class = "depth_marker" id = "x60">Depth: 5,900 Meters</div>
+			<div class = "depth_marker" id = "x61">Depth: 6,000 Meters</div>
+			<div class = "depth_marker" id = "x62">Depth: 6,100 Meters</div>
+			<div class = "depth_marker" id = "x63">Depth: 6,200 Meters</div>
+			<div class = "depth_marker" id = "x64">Depth: 6,300 Meters</div>
+			<div class = "depth_marker" id = "x65">Depth: 6,400 Meters</div>
+			<div class = "depth_marker" id = "x66">Depth: 6,500 Meters</div>
+			<div class = "depth_marker" id = "x67">Depth: 6,600 Meters</div>
+			<div class = "depth_marker" id = "x68">Depth: 6,700 Meters</div>
+			<div class = "depth_marker" id = "x69">Depth: 6,800 Meters</div>
+			<div class = "depth_marker" id = "x70">Depth: 6,900 Meters</div>
+			<div class = "depth_marker" id = "x71">Depth: 7,000 Meters</div>
+			<div class = "depth_marker" id = "x72">Depth: 7,100 Meters</div>
+			<div class = "depth_marker" id = "x73">Depth: 7,200 Meters</div>
+			<div class = "depth_marker" id = "x74">Depth: 7,300 Meters</div>
+			<div class = "depth_marker" id = "x75">Depth: 7,400 Meters</div>
+			<div class = "depth_marker" id = "x76">Depth: 7,500 Meters</div>
+			<div class = "depth_marker" id = "x77">Depth: 7,600 Meters</div>
+			<div class = "depth_marker" id = "x78">Depth: 7,700 Meters</div>
+			<div class = "depth_marker" id = "x79">Depth: 7,800 Meters</div>
+			<div class = "depth_marker" id = "x80">Depth: 7,900 Meters</div>
+			<div class = "depth_marker" id = "x81">Depth: 8,000 Meters</div>
+			<div class = "depth_marker" id = "x82">Depth: 8,100 Meters</div>
+			<div class = "depth_marker" id = "x83">Depth: 8,200 Meters</div>
+			<div class = "depth_marker" id = "x84">Depth: 8,300 Meters</div>
+			<div class = "depth_marker" id = "x85">Depth: 8,400 Meters</div>
+			<div class = "depth_marker" id = "x86">Depth: 8,500 Meters</div>
+			<div class = "depth_marker" id = "x87">Depth: 8,600 Meters</div>
+			<div class = "depth_marker" id = "x88">Depth: 8,700 Meters</div>
+			<div class = "depth_marker" id = "x89">Depth: 8,800 Meters</div>
+			<div class = "depth_marker" id = "x90">Depth: 8,900 Meters</div>
+			<div class = "depth_marker" id = "x91">Depth: 9,000 Meters</div>
+			<div class = "depth_marker" id = "x92">Depth: 9,100 Meters</div>
+			<div class = "depth_marker" id = "x93">Depth: 9,200 Meters</div>
+			<div class = "depth_marker" id = "x94">Depth: 9,300 Meters</div>
+			<div class = "depth_marker" id = "x95">Depth: 9,400 Meters</div>
+			<div class = "depth_marker" id = "x96">Depth: 9,500 Meters</div>
+			<div class = "depth_marker" id = "x97">Depth: 9,600 Meters</div>
+			<div class = "depth_marker" id = "x98">Depth: 9,700 Meters</div>
+			<div class = "depth_marker" id = "x99">Depth: 9,800 Meters</div>
+			<div class = "depth_marker" id = "x100">Depth: 9,900 Meters</div>
+			<div class = "depth_marker" id = "x101">Depth: 10,000 Meters</div>
+			<div class = "depth_marker" id = "x102">Depth: 10,100 Meters</div>
+			<div class = "depth_marker" id = "x103">Depth: 10,200 Meters</div>
+			<div class = "depth_marker" id = "x104">Depth: 10,300 Meters</div>
+			<div class = "depth_marker" id = "x105">Depth: 10,400 Meters</div>
+			<div class = "depth_marker" id = "x106">Depth: 10,500 Meters</div>
+			<div class = "depth_marker" id = "x107">Depth: 10,600 Meters</div>
+			<div class = "depth_marker" id = "x108">Depth: 10,700 Meters</div>
+			<div class = "depth_marker" id = "x109">Depth: 10,800 Meters</div>
+			<div class = "depth_marker" id = "x110">Depth: 10,900 Meters</div>
+			<div class = "depth_marker" id = "x111">Depth: 11,104 Meters</div>
+			<!-- End Depth Markers -->
+		</body>
+	</html>
